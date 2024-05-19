@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The following project implements the FizzBuzz problem in C# while using a clean code approach
+The following project implements the FizzBuzz problem in C# while using a clean code approach.
 
 ## FizzBuzz Explanation
 
