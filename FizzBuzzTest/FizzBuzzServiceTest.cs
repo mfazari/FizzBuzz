@@ -43,5 +43,17 @@ public class FizzBuzzServiceTest
         Assert.Equal("Buzz", result);
     }
 
+    [Fact]
+    public void TestNumberOutput()
+    {
+        // Arrange
+        var fizzBuzzService = new FizzBuzzService();
+
+        // Act
+        var result = fizzBuzzService.GetResult(2);
+
+        // Assert
+        Assert.Equal("2", result);
+    }
 
 }
